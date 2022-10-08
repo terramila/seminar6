@@ -7,16 +7,16 @@ int length = int.Parse(Console.ReadLine());
 Console.Write($"Введите {length} чисел от -100 до 100 через пробел, затем нажмите Enter: ");
 int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 int count = 0;
-Main(args);
+/*Main(args);
 
   void Main(string[] args)
     {
-        int[] numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
+        int[] arr = Console.ReadLine().Split().Select(int.Parse).ToArray();
  
-        Console.WriteLine(string.Join(" ",numbers));
+        Console.WriteLine(string.Join(" ",arr));
  
         Console.ReadKey();
-    }
+    }*/
  
 
 
