@@ -6,11 +6,11 @@ b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5) */
 
 void CrossPoint(double k1, double b1, double k2, double b2)
 {
-double x = (b1-b2)/(k2-k1);
-double y = (k2*b1-k1*b2)/(k2-k1);
-if(k1==k2) Console.Write("Заданные прямые не пересекаются!");
-else
-Console.Write($"Точка пересечения заданных прямых: ({x}; {y})");
+   double x = (b1-b2)/(k2-k1);
+   double y = (k2*b1-k1*b2)/(k2-k1);
+   if(k1==k2) Console.Write("Заданные прямые не пересекаются!");
+   else
+       Console.Write($"Точка пересечения заданных прямых: ({x}; {y})");
 }
 
 Console.WriteLine("Введите b1: ");
